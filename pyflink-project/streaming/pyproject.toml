@@ -8,7 +8,9 @@ dependencies = [
     "kafka-python (>=2.3.0,<3.0.0)",
     "pandas (<2.3)",
     "psycopg2-binary (>=2.9.11,<3.0.0)",
-    "pyarrow (<21.0.0)"
+    "pyarrow (<21.0.0)",
+    "orjson (>=3.11.7,<4.0.0)",
+    "lz4 (>=4.4.5,<5.0.0)"
 ]
 
 [tool.poetry]
